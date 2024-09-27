@@ -1,0 +1,616 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>DirectFind - Directory and Listing HTML Template</title>
+<link rel="icon" href="images/sm-logo.png" type="image/gif" sizes="20x20">
+
+<link rel="stylesheet" href="css/boxicons.min.css">
+
+<link rel="stylesheet" href="css/bootstrap-icons.css">
+
+
+
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" href="css/animate.css">
+
+<link rel="stylesheet" href="css/nice-select.css">
+<link rel="stylesheet" href="css/sclect2.css">
+
+<link rel="stylesheet" href="css/odometer.css">
+
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="preloader">
+<div class="loader">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+
+<header class="header-section3">
+<div class="container">
+<div class="header-area">
+<div class="mobile-menu-btn text-white d-lg-none d-block">
+<i class="bi bi-list"></i>
+</div>
+<div class="header-logo">
+<a href="index.html"><img src="images/home-two-logo.png" alt="Logo"></a>
+</div>
+<div class="main-menu">
+<div class="mobile-logo-area d-lg-none d-block">
+<div class="mobile-logo-wrap d-flex justify-content-between align-items-center">
+<img src="images/home-two-logo.png" alt="Logo">
+<div class="menu-close-btn">
+<i class="bi bi-x-lg"></i>
+</div>
+</div>
+</div>
+<ul class="menu-list">
+<li class="menu-item">
+<a href="#" class="menu-link drop-down">Home<i class="bi bi-plus dropdown-icon"></i></a>
+<ul class="submenu">
+<li class="sub-item"><a href="index.html">Home 1</a></li>
+<li class="sub-item"><a href="index-2.html">home 2</a></li>
+</ul>
+</li>
+<li class="menu-item"><a href="about-us.html" class="menu-link">About Us</a></li>
+<li class="menu-item">
+<a href="#" class="menu-link drop-down">Listing<i class="bi bi-plus dropdown-icon"></i></a>
+<ul class="submenu">
+<li class="sub-item"><a href="listing_page.html">Listing Page</a></li>
+<li class="sub-item"><a href="listing_sidebar.html">Listing Sidebar</a></li>
+<li class="sub-item"><a href="listing_standard.html">Listing Standard</a></li>
+<li class="sub-item"><a href="listing_detsils.html">Listing Details</a></li>
+<li class="sub-item"><a href="add_listing.html">Add Listing</a></li>
+</ul>
+</li>
+<li class="menu-item">
+<a href="#" class="menu-link drop-down">Blog<i class="bi bi-plus dropdown-icon"></i></a>
+<ul class="submenu">
+<li class="sub-item"><a href="blog-sidebar.html">Blog Sidebar</a></li>
+<li class="sub-item"><a href="blog-standard.html">Blog Standard</a></li>
+<li class="sub-item"><a href="blog-detsils.html">Blog Details</a></li>
+</ul>
+</li>
+<li class="menu-item">
+<a href="#" class="menu-link drop-down">Pages<i class="bi bi-plus dropdown-icon"></i></a>
+<ul class="submenu">
+<li class="sub-item"><a href="login.html">Log In</a></li>
+<li class="sub-item"><a href="sign-up.html">Sign Up</a></li>
+<li class="sub-item"><a href="error.html">Error</a></li>
+<li class="sub-item"><a href="faq.html">FAQ</a></li>
+<li class="sub-item"><a href="contact.html">Contact Us</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="mobile-menu-bottom d-lg-none d-block">
+<a href="add_listing.html" class="mob-btn-start common-btn">Add Listing</a>
+</div>
+</div>
+<div class="nav-right-area">
+<div class="bookmarks header-icon">
+<a href="faq.html">
+<svg width="19" height="24" viewBox="0 0 19 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.50567 1.0629C1.71505 1.25606 1.07266 1.93887 0.919929 2.74747C0.852546 3.10235 0.857039 22.3424 0.924421 22.6613C1.00079 23.0072 1.14903 23.2768 1.40509 23.5149C1.79141 23.8742 2.23614 24.0315 2.74376 23.9865C3.3502 23.9281 3.24239 24.0225 6.19825 21.0756C8.05801 19.2248 8.94746 18.3668 9.05977 18.3174C9.27539 18.232 9.72461 18.232 9.94024 18.3174C10.0525 18.3668 10.942 19.2248 12.8018 21.0756C15.7576 24.0225 15.6498 23.9281 16.2562 23.9865C17.1008 24.0629 17.8734 23.5149 18.0621 22.7018C18.1115 22.4951 18.125 20.6533 18.125 12.7201C18.125 6.32325 18.1115 2.9047 18.0801 2.74747C17.9228 1.92091 17.24 1.22012 16.4269 1.04942C16.0631 0.973053 2.82012 0.98653 2.50567 1.0629ZM16.4359 2.5004C16.5303 2.57227 16.6471 2.71153 16.692 2.81485C16.7728 2.99454 16.7773 3.32247 16.7773 12.7156V22.4322L16.665 22.54C16.5932 22.6119 16.5078 22.6524 16.409 22.6524C16.2787 22.6524 16.0271 22.4188 13.5654 19.9615C10.6859 17.091 10.7309 17.1315 10.1244 16.9697C9.56738 16.8215 8.79024 16.9203 8.28711 17.2033C8.16582 17.2752 7.06074 18.3399 5.45704 19.9346C4.01055 21.3766 2.78419 22.576 2.73028 22.6029C2.57755 22.6793 2.45176 22.6613 2.33497 22.54L2.22266 22.4322V12.7246C2.22266 2.16348 2.20469 2.85528 2.46075 2.57677C2.68087 2.33868 2.32149 2.35216 9.54941 2.36114L16.2697 2.37012L16.4359 2.5004Z"></path>
+</svg>
+</a>
+<div class="bookmarks-batch">
+<a href="#">05</a>
+</div>
+</div>
+<div class="user-header header-icon">
+<a href="sign-up.html">
+<svg width="23" height="23" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.4895 0.0673952C9.26314 0.256066 8.16705 0.840051 7.30904 1.75197C6.36569 2.75372 5.87604 3.91271 5.80866 5.30079C5.71432 7.24142 6.66666 9.09669 8.3108 10.1703C9.11939 10.7004 9.89654 10.9699 10.8399 11.0463C12.5874 11.1811 14.0788 10.633 15.2827 9.40665C16.4596 8.20724 16.9852 6.72931 16.8415 5.03126C16.7157 3.57579 16.0733 2.32247 14.9592 1.36115C14.0788 0.606458 13.2702 0.229114 12.1516 0.0673952C11.6126 -0.00897217 10.9836 -0.0134649 10.4895 0.0673952ZM12.4032 1.47794C13.1085 1.65763 13.6385 1.96759 14.2315 2.5381C15.0042 3.27032 15.395 4.07892 15.4983 5.1256C15.6196 6.36544 15.2377 7.49747 14.3977 8.39591C13.8766 8.95294 13.1085 9.42462 12.4571 9.59083C11.4913 9.83341 10.3413 9.73009 9.51471 9.3213C8.38717 8.76427 7.55162 7.72208 7.24615 6.49122C7.12936 6.01954 7.14283 4.95489 7.27311 4.46974C7.61901 3.167 8.75103 1.95861 10.0088 1.54982C10.6917 1.3297 11.7114 1.29825 12.4032 1.47794Z"></path>
+<path d="M6.41043 11.1451C5.72313 11.217 5.01336 11.4775 4.45184 11.8549C3.05028 12.8072 2.14285 14.9365 1.93172 17.7666C1.81492 19.3568 1.90926 20.143 2.31805 20.965C2.54266 21.4232 2.96942 21.9264 3.40516 22.2498C3.73758 22.4924 4.29461 22.7439 4.78426 22.8697L5.18856 22.9775H11.4776H17.7667L18.171 22.8742C19.5905 22.5014 20.5833 21.5445 20.9382 20.1924C21.1223 19.4961 21.0999 17.834 20.8843 16.5223C20.4126 13.6023 19.2177 11.8504 17.3264 11.3023C16.8952 11.1766 16.1225 11.0822 15.8934 11.1271C15.6733 11.1676 15.3679 11.3293 14.6761 11.774C13.9304 12.2547 13.8136 12.3176 13.2565 12.5197C12.6007 12.7578 12.111 12.8521 11.5046 12.8521C10.8757 12.8521 10.3905 12.7623 9.75262 12.5377C9.15067 12.3221 9.12371 12.3086 8.18035 11.7111C7.68621 11.3967 7.31785 11.1945 7.1741 11.1541C6.92254 11.0912 6.92254 11.0912 6.41043 11.1451ZM7.5784 12.9195C8.42293 13.4631 8.77782 13.6383 9.51903 13.8809C11.4507 14.5143 13.4227 14.2088 15.2825 12.9914C16.1225 12.4389 16.1046 12.4479 16.4595 12.4928C18.0901 12.6994 19.1098 14.0695 19.5411 16.6436C19.7163 17.7037 19.7702 19.1816 19.6534 19.7432C19.4647 20.6461 18.8538 21.284 17.9194 21.549C17.6499 21.6254 17.295 21.6299 11.4776 21.6299C5.64676 21.6299 5.30985 21.6254 5.03133 21.549C4.362 21.3604 3.7825 20.9021 3.51297 20.3496C3.27938 19.8734 3.22098 19.4736 3.25692 18.5078C3.28836 17.533 3.33328 17.0793 3.49051 16.2842C3.60731 15.6643 3.88133 14.7838 4.0745 14.402C4.65399 13.252 5.44012 12.623 6.45985 12.4928C6.62606 12.4703 6.77879 12.4523 6.79676 12.4479C6.81473 12.4479 7.16512 12.659 7.5784 12.9195Z"></path>
+</svg>
+</a>
+</div>
+<a href="add_listing.html" class="header-button header-icon">
+<svg width="15" height="10" viewBox="0 0 15 10" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.713668 0.0205841C0.443833 0.0888418 0.188663 0.296459 0.0742758 0.546737C0.0244149 0.654811 0.00681694 0.745822 0.00681694 0.930686C0.00388394 1.14684 0.0126829 1.18665 0.0918737 1.32601C0.188663 1.49666 0.347044 1.63886 0.543555 1.73271C0.745931 1.82941 1.08909 1.82372 1.31493 1.72134C1.52024 1.63033 1.69329 1.45684 1.79594 1.24922C1.8634 1.10986 1.8722 1.06436 1.86047 0.873805C1.8458 0.623527 1.76661 0.44435 1.59357 0.270862C1.38532 0.0632452 0.998169 -0.0476735 0.713668 0.0205841Z"></path>
+<path d="M3.49344 0.0319922C3.31453 0.0860295 3.21187 0.145755 3.08575 0.26805C2.72793 0.609337 2.72793 1.19237 3.08575 1.53935C3.15028 1.59907 3.27346 1.68439 3.36145 1.72421L3.52277 1.79816H8.43553H13.3483L13.5125 1.72421C13.8557 1.56779 14.0522 1.26916 14.0522 0.902276C14.0522 0.535392 13.8557 0.236765 13.5125 0.0803413L13.3483 0.0063957L8.47953 0.000707507C4.61091 -0.00213659 3.58729 0.0035516 3.49344 0.0319922Z"></path>
+<path d="M0.677985 4.12452C0.490274 4.18425 0.393485 4.24397 0.264434 4.37764C0.0415262 4.60233 -0.0435306 4.87251 0.0209952 5.16261C0.0679231 5.38444 0.135382 5.50389 0.296696 5.64894C0.475609 5.80821 0.651588 5.87931 0.909692 5.89922C1.10034 5.91344 1.14433 5.90775 1.29685 5.83949C1.52269 5.73995 1.6752 5.59206 1.78079 5.3816C2.0037 4.93224 1.79545 4.39186 1.31738 4.1814C1.1238 4.09608 0.848099 4.07048 0.677985 4.12452Z"></path>
+<path d="M3.41744 4.15586C3.15054 4.26109 3.00095 4.40045 2.88657 4.64788C2.79564 4.83844 2.79858 5.15413 2.8895 5.3589C2.97456 5.54661 3.21213 5.7656 3.40571 5.83955C3.54942 5.89359 3.69021 5.89359 8.91973 5.89359H14.2871L14.4484 5.81964C14.8649 5.62624 15.0878 5.17404 14.9676 4.76733C14.8737 4.45733 14.6215 4.20705 14.3135 4.12173C14.2226 4.09614 12.8793 4.0876 8.88747 4.0876H3.58169L3.41744 4.15586Z"></path>
+<path d="M0.678263 8.22001C0.496417 8.27973 0.393763 8.33946 0.27351 8.45891C-0.104846 8.82295 -0.0843149 9.41167 0.317505 9.76149C0.481753 9.90654 0.648933 9.97195 0.907036 9.99186C1.10355 10.0089 1.14168 10.0032 1.29712 9.93498C1.52296 9.83544 1.67548 9.68754 1.78107 9.47708C1.89545 9.24672 1.90132 8.95378 1.79573 8.73194C1.60509 8.33377 1.07715 8.09203 0.678263 8.22001Z"></path>
+<path d="M3.47891 8.21912C3.32053 8.26462 3.08296 8.42674 3.00083 8.54619C2.86298 8.73674 2.82192 8.86472 2.82485 9.09225C2.82485 9.37097 2.90404 9.55299 3.10935 9.7407C3.39972 10.008 3.10349 9.98813 6.80786 9.98813H10.0635L10.2248 9.91418C10.8818 9.61271 10.9668 8.74243 10.3802 8.34995C10.1192 8.17361 10.2776 8.18215 6.78146 8.18499C4.60225 8.18783 3.5493 8.19637 3.47891 8.21912Z"></path>
+</svg>
+Add Listing</a>
+</div>
+</div>
+</div>
+</header>
+
+<div class="dif-inner-page-banner-section">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 d-flex justify-content-center">
+<div class="dif-inner-page-banner-content">
+<h1>Add Listing</h1>
+<nav style="--bs-breadcrumb-divider: url(" data:image="" svg+xml,%3csvg="" xmlns="http://www.w3.org/2000/svg" width="8" height="8" %3e%3cpath="" d="M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z" fill="currentColor" %3e%3c="" svg%3e");"="" aria-label="breadcrumb">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+<li class="breadcrumb-item active" aria-current="page">Add Listing</li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="add-listing-section pt-120 mb-120">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<form id="regForm">
+<div class="d-flex flex-wrap Paginason progresss" style="text-align:center;">
+<span class="step step2">Listing Info</span>
+<span class="step">Gallery &amp; Video</span>
+<span class="step">Location</span>
+<span class="step">Contact Info</span>
+<span class="step">Feature</span>
+<span class="step">Social Media</span>
+<span class="step">Confirmation</span>
+</div>
+
+<div class="tab">
+<h5>Listing Info</h5>
+<div class="row">
+<div class="col-lg-4 mb-35">
+<label>Listing Title</label>
+<p><input placeholder="Write Title" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-4">
+<label>Listing Type</label>
+<div class="form-inner catagory">
+<select class="catagory-option" style="display: none;" oninput="this.className = ''" name="fname">
+<option value="location">All Type</option>
+<option value="1">Hotel</option>
+<option value="2">Restaurants</option>
+<option value="3">Event</option>
+<option value="4">Fashion</option>
+</select>
+</div>
+</div>
+<div class="col-lg-4 mb-35">
+<label>Listing Price</label>
+<p><input type="number" placeholder="Write Price" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-4">
+<label>Category</label>
+<div class="form-inner catagory">
+<select class="catagory-option" style="display: none;" oninput="this.className = ''" name="fname">
+<option value="location">All Category</option>
+<option value="1">Hotel</option>
+<option value="2">Restaurants</option>
+<option value="3">Event</option>
+<option value="4">Fashion</option>
+</select>
+</div>
+</div>
+<div class="col-lg-8 mb-35">
+<label> Keyword </label>
+<p><input placeholder="List Your Keyword" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-12 mb-35">
+<label>Address</label>
+<p><input placeholder="Write Your Address" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-6 mb-35">
+<label>Plan Title</label>
+<p><input placeholder="All Category" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-6 mb-35">
+<label>Icon</label>
+<p><input type="file" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-12">
+<label>Description</label>
+<p><textarea placeholder="Write Description" oninput="this.className = ''" name="fname" cols="30" rows="10"></textarea></p>
+</div>
+</div>
+</div>
+<div class="tab">
+<h5>Gallery &amp; Video</h5>
+<div class="row">
+<div class="col-lg-12 mb-35">
+<label>Images</label>
+<div class="gallery-wrrap">
+<div class="logoContainer">
+<img class="logo" src="images/file.svg" alt="Logo">
+</div>
+<div class="fileContainer sprite">
+<span>Click here to upload your images</span>
+<input class="imageUpload" type="file">
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+<label>Videos</label>
+<div class="gallery-wrrap">
+<div class="videoContainer">
+<img class="video" src="images/file.svg" alt="file">
+</div>
+<div class="fileContainer sprite">
+<span>Click here to upload your Videos</span>
+<input class="videoUpload" type="file">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab">
+<h5>Location </h5>
+<div class="row">
+<div class="col-lg-12 mb-35">
+<label>Address</label>
+<p><input placeholder="Enter Your Address" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-12">
+<label>Place Location At Google Map </label>
+<div class="google-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d317742.7090966199!2d-0.00970543955781382!3d51.524866436524825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1650615900558!5m2!1sen!2sbd" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+</div>
+<div class="tab">
+<h5>Contact Info</h5>
+<div class="row">
+<div class="col-lg-6">
+<label>Select City</label>
+<div class="form-inner catagory">
+<select class="catagory-option" style="display: none;" oninput="this.className = ''" name="fname">
+<option value="location">Select City</option>
+<option value="1">Epsom</option>
+<option value="2">Watford</option>
+<option value="3">Illford</option>
+<option value="4">Kingston</option>
+</select>
+</div>
+</div>
+<div class="col-lg-6 mb-35">
+<label>Address</label>
+<p><input placeholder="Address" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-6">
+<label>State</label>
+<select class="catagory-option" style="display: none;" oninput="this.className = ''" name="fname">
+<option value="location">Select State</option>
+<option value="1">Epsom</option>
+<option value="2">Watford</option>
+<option value="3">Illford</option>
+<option value="4">Kingston</option>
+</select> </div>
+<div class="col-lg-6 mb-35">
+<label>Zip Code</label>
+<p><input placeholder="Enter Your Address" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-6 mb-35">
+<label>Email</label>
+<p><input type="email" placeholder="Enter Your Email" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-6 mb-35">
+<label>Phone</label>
+<p><input type="number" placeholder="Enter Your Phone" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-6 mb-35">
+<label>Website</label>
+<p><input placeholder="www.example.com" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-6">
+<label>Longitude (Drag marker on the map)</label>
+<p><input placeholder="EMap Longitude" oninput="this.className = ''" name="fname"></p>
+</div>
+</div>
+</div>
+<div class="tab featuress-tab">
+<h5>Feature</h5>
+<div class="row">
+<div class="col-lg-3 col-md-4 col-sm-6">
+<div class="product-tag product-tag3">
+<div class="tag-items">
+<ul>
+<li>
+<input type="checkbox" id="weekday-1" name="weekday-1" value="Friday">
+<label for="weekday-1">3 Bed Room</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-2" name="weekday-2" value="Friday">
+<label for="weekday-2">Coffee Kit</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-3" name="weekday-3" value="Friday">
+<label for="weekday-3">Free WiFi</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-4" name="weekday-4" value="Friday">
+<label for="weekday-4">Relaxation</label>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6">
+<div class="product-tag product-tag3">
+<div class="tag-items">
+<ul>
+<li>
+<input type="checkbox" id="weekday-5" name="weekday-5" value="Friday">
+<label for="weekday-5">3 Washroom</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-6" name="weekday-6" value="Friday">
+<label for="weekday-6">Tissue box</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-7" name="weekday-7" value="Friday">
+<label for="weekday-7">Free parking</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-8" name="weekday-8" value="Friday">
+<label for="weekday-8">Laundry service</label>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6">
+<div class="product-tag product-tag3">
+<div class="tag-items">
+<ul>
+<li>
+<input type="checkbox" id="weekday-9" name="weekday-9" value="Friday">
+<label for="weekday-9">Toiletries</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-10" name="weekday-10" value="Friday">
+<label for="weekday-10">Bathrobes</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-11" name="weekday-11" value="Friday">
+<label for="weekday-11">Gym or fitness</label>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6">
+<div class="product-tag product-tag3">
+<div class="tag-items">
+<ul>
+<li>
+<input type="checkbox" id="weekday-12" name="weekday-12" value="Friday">
+<label for="weekday-12">Personal care</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-13" name="weekday-13" value="Friday">
+<label for="weekday-13">Free breakfast</label>
+</li>
+<li>
+<input type="checkbox" id="weekday-14" name="weekday-14" value="Friday">
+<label for="weekday-14">Room Purication</label>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab">
+<h5>Social Media</h5>
+<div class="row">
+<div class="col-lg-12 mb-35">
+<label>Facebook</label>
+<p><input placeholder="www.facebook.com" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-12 mb-35">
+<label>Instagram</label>
+<p><input placeholder="www.instagram.com" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-12 mb-35">
+<label>Twitter</label>
+<p><input placeholder="www.twitter.com" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-12 mb-35">
+<label>Linkedin</label>
+<p><input placeholder="www.linkedin.com" oninput="this.className = ''" name="fname"></p>
+</div>
+<div class="col-lg-12">
+<label>Pinterest</label>
+<p><input type="email" placeholder="www.pinterest.com" oninput="this.className = ''" name="fname"></p>
+</div>
+</div>
+</div>
+<div class="tab mb-40">
+<h5>Confirmation</h5>
+<div class="row">
+<div class="col-lg-12">
+<div class="confirmation-area new">
+<div class="form-group form-group1">
+<input type="checkbox" id="html">
+<label for="html">I Agree To Qamous's Privacy Policy.</label>
+</div>
+<div class="form-group">
+<input type="checkbox" id="css">
+<label for="css">I Agree To Qamous's Terms Of Services.</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="overflow:auto; padding-top: 60px;">
+<div style=" display: flex; justify-content: center; gap: 20px;">
+<button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+<button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+</div>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="dif-newsletter-section-style2">
+<div class="container">
+<div class="row pt-70 pb-70">
+<div class="col-lg-5 d-flex justify-content-center">
+<div class="dif-newsletter-content">
+<p>Stay In Touch</p>
+<h2>Subscribe Our
+<span>Newsletter</span>
+</h2>
+</div>
+</div>
+<div class="col-lg-7 d-flex align-items-center">
+<form>
+<div class="form-inner d-flex">
+<input class="enter-email" type="text" placeholder="Enter Your Email Here">
+<button type="submit">Notify Now</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<footer class="footer-styel2">
+<div class="dif-footer-social-icon">
+<div class="facebook social-icon">
+<a href="#"><i class="bx bxl-facebook"></i></a>
+</div>
+<div class="twiter social-icon">
+<a href="#"><i class="bx bxl-twitter"></i></a>
+</div>
+<div class="pinterest social-icon">
+<a href="#"><i class="bx bxl-pinterest-alt"></i></a>
+</div>
+<div class="instagram social-icon">
+<a href="#"><i class="bx bxl-instagram"></i></a>
+</div>
+</div>
+<div class="footer-shadow">
+<img src="images/Intersect.png" alt="Intersect">
+</div>
+<div class="container">
+<div class="footer-top">
+<div class="row  g-4">
+<div class="col-lg-3 col-md-6 col-sm-6 col-xsm-12">
+<div class="dif-footer-item">
+<div class="footer-header">
+<h4>Contact Us</h4>
+</div>
+<div class="footer-content-1">
+<ul>
+<li class="footer-contract"><i class="bx bx-phone-call"></i><p><a href="tel:+8801761111456" class="first-number">+880 176 1111 456</a></p><p><a href="tel:+880176111145" class="second-number">+880 176 1111 456</a></p></li>
+<li class="footer-contract"><i class="bx bx-envelope"></i><p><a href="/cdn-cgi/l/email-protection#177e79717857726f767a677b723974787a" class="first-number"><span class="__cf_email__" data-cfemail="fd94939b92bd98859c908d9198d39e9290">[email�&nbsp;protected]</span></a></p><p><a href="/cdn-cgi/l/email-protection#0e676068614e7d7b7e7e617c7a206d6163" class="second-number"><span class="__cf_email__" data-cfemail="2f464149406f5c5a5f5f405d5b014c4042">[email�&nbsp;protected]</span></a></p></li>
+<li class="footer-contract"><i class="bx bxs-map"></i><a href="#" class="first-number">168/170, Avenue 01,</a><a class="second-number">Mirpur DOHS, Bangladesh </a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 col-xsm-12">
+<div class="dif-footer-item">
+<div class="footer-header">
+<h4>Quick Links</h4>
+</div>
+<div class="footer-content-1">
+<ul>
+<li class="footer-list"><a href="about-us.html">About Us</a></li>
+<li class="footer-list"><a href="listing_page.html">Listing</a></li>
+<li class="footer-list"><a href="blog-sidebar.html">Blog</a></li>
+<li class="footer-list"><a href="faq.html">FAQ</a></li>
+<li class="footer-list"><a href="sign-up.html">Registration</a></li>
+<li class="footer-list"><a href="login.html">Login</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 col-xsm-12">
+<div class="dif-footer-item">
+<div class="footer-header">
+<h4>Category</h4>
+</div>
+<div class="footer-content-1">
+<ul>
+<li class="footer-list"><a href="listing_page.html">Fashion</a></li>
+<li class="footer-list"><a href="listing_page.html">Real Estate</a></li>
+<li class="footer-list"><a href="listing_page.html">Restaurants</a></li>
+<li class="footer-list"><a href="listing_page.html">Event</a></li>
+<li class="footer-list"><a href="listing_page.html">Jobs</a></li>
+<li class="footer-list"><a href="listing_page.html">Hotels</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 col-xsm-12">
+<div class="dif-footer-item2">
+<div class="footer-logo">
+<img src="images/home-two-logo.png" alt="footer_logo">
+</div>
+<div class="footer-content2">
+<h4>Add New Listing</h4>
+<p>This is Best Directory Solution, Submit your listing</p>
+<a class="bg--red" href="sign-up.html">Sign Up Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="footer-btm-left-content">
+<p>Copyright 2022 <a class="text-bold" href="#">Direct Find</a> | Design By <a class="text-bold" href="https://#/">Egens Lab</a></p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="footer-btm-right-content">
+<p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+<script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/jquery-3.6.0.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/anime.min.js"></script>
+
+<script src="js/isotope.pkgd.js"></script>
+
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/select2.min.js"></script>
+
+<script src="js/wow.min.js"></script>
+
+<script src="js/odometer.min.js"></script>
+
+<script src="js/viewport.jquery.js"></script>
+
+<script src="js/swiper-bundle.min.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/multilevel-form.js"></script>
+
+</body></html>
